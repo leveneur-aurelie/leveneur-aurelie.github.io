@@ -1,4 +1,4 @@
-<?php require 'utils/data.php'; ?>
+<?php require 'php/utils/data.php'; ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -7,18 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV - Aurélie Leveneur</title>
-    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 <div class="wrapper">
     <header class="header">
         <div class="header__photo">
-            <img src="../pictures/photo-de-moi.jpg" alt="Aurélie Leveneur">
+            <img src="pictures/photo-de-moi.jpg" alt="Aurélie Leveneur">
         </div>
         <div class="header__left">
             <div class="name">
